@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d9d9d9;
+    margin: 0;
+}
+
+
+header {
+    background-color: #e3b98c;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo{
+    font-size: 100px;
+    background: #ccc;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+
+.menu a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+
+.profile-container {
+    margin: 20px;
+    padding: 40px;
+    background-color: #e3b98c;
+    height: 500px;
+    position: relative;
+}
+
+
+.student-image {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.student-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+
+.student-info {
+    text-align: center;
+    margin-top: 200px;
+}
