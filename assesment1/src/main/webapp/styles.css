@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    background-color: teal;
+    color: white;
+    border: none;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    table {
+        width: 100%;
+    }
+}
